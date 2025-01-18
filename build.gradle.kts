@@ -21,7 +21,7 @@ taboolib {
             BukkitNMSUtil,
         )
     }
-    version { taboolib = "6.2.1-f095116" }
+    version { taboolib = "6.2.2" }
 }
 
 repositories {

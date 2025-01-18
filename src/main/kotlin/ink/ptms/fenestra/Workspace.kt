@@ -85,7 +85,7 @@ class Workspace(val player: CommandSender, val itemStack: ItemStack, val isReadO
      * 将缓存写入物品
      */
     fun saveWorkspace() {
-        compound.saveTo(itemStack)
+        compound.saveTo(itemStack, onlyCustom = false)
     }
 
     /**
